@@ -1,0 +1,28 @@
+body{
+    
+   
+    flex-direction: column;
+
+   
+}
+.header{
+    background: rgb(174, 103, 241);
+    margin: auto;
+    padding: 5rem;
+    display: grid;
+    flex: 0.4;
+    place-items: center;
+
+}
+.body{
+    background-color: aquamarine;
+    padding: 10rem;
+    
+    flex: 0.6rem;
+    display: grid;
+    place-items: center;
+
+}
+.body input[type=text]{
+    width: 10rem;
+}
